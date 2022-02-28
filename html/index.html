@@ -76,22 +76,30 @@
     </ul>
     </p>
     <br>
-    <table>这是一个表格</table>
-    <tr>
-        <td>名字</td>
-        <td>代号</td>
-        <td>昵称</td>
-    </tr>
-    <tr>
-        <td>艾瑞利亚</td>
-        <td>刀锋舞者</td>
-        <td>刀妹</td>
-    </tr>
-    <tr>
-        <td>泰隆</td>
-        <td>刀锋之影</td>
-        <td>男刀</td>
-    </tr>
+    <table border="1">
+        <colgroup>
+            <col>
+            <col style="background-color: yellow">
+            <col style="background-color: rgb(221, 172, 37)">
+        </colgroup>
+        <tr>
+            <th>名字</th>
+            <th>代号</th>
+            <th>昵称</th>
+        </tr>
+        <tr>
+            <td>艾瑞利亚</td>
+            <td colspan="1" rowspan="2">
+                刀锋舞者
+            </td>
+            <td>刀妹</td>
+        </tr>
+        <tr>
+            <td>泰隆</td>
+            <!-- <td>刀锋之影</td> -->
+            <td>男刀</td>
+        </tr>
+    </table>
 
     <h1>表单</h1>
 
