@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* (hangnei,id,class,biaoqian) */
+        /* (0,2,0,0) */
+        #father #son {
+            color: pink;
+        }
+
+        #father p.c2 {
+            color: black;
+        }
+
+        div.c1 p.c2 {
+            color: orange;
+        }
+
+        #father {
+            color: green;
+        }
+
+        div#father.c1 {
+            color: red;
+        }
+
+        .box {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">box</div>
+    <div class="c1" id="father">f1
+        <p class="c2" id="son">s1</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: red;
+        }
+
+        div {
+            color: green !important;
+        }
+
+        .box {
+            color: pink;
+        }
+
+        #obx {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        不同选择器具有不同的优先级，优先级高的选择器会覆盖
+        <li>继承《通配符选择器《标签选择器《 类选择器《id选择器《行内样式《!important</li>
+        <div class="box" id="obx" style="color:orange;">测试优先级</div>
+    </ul>
+</body>
+
+</html>
